@@ -16,17 +16,17 @@
 2. 进入偏好设置：
    - **Windows / Linux**: 点击菜单栏 `文件` -> `偏好设置` -> `外观` -> 点击 **`打开主题文件夹`**。
    - **macOS**: 点击菜单栏 `Typora` -> `偏好设置` -> `外观` -> 点击 **`打开主题文件夹`**。
-3. 将包含主题的 [claude.css](cci:7://file:///c:/Users/datovm/AppData/Roaming/Typora/themes/claude.css:0:0-0:0) 文件（如果后续有字体和相关资源文件夹，也一并放入）复制到刚才打开的主题文件夹中。
+3. 将包含主题的 [claude.css](claude.css) 文件（如果后续有字体和相关资源文件夹，也一并放入）复制到刚才打开的主题文件夹中。
 4.关闭并重新启动 Typora。
 5. 在 Typora 菜单栏的 **`主题 (Themes)`** 中选择 **`Claude`** 即可应用。
 
 ## 🎨 界⾯预览 (Screenshots)
 
-![image-20260322231450333](C:\Users\datovm\AppData\Roaming\Typora\typora-user-images\image-20260322231450333.png)
+![Claude Theme 预览图](images/screenshot.png)
 
 ## 🛠 修改与定制 (Customization)
 
-该主题遵循现代 CSS 规范，所有的核心颜色都被提取为 CSS 变量（Variables）。如果你希望微调主题色彩，可以直接用文本/代码编辑器打开 [claude.css](cci:7://file:///c:/Users/datovm/AppData/Roaming/Typora/themes/claude.css:0:0-0:0) 文件，在最顶部的 `:root` 模块中修改这些变量：
+该主题遵循现代 CSS 规范，所有的核心颜色都被提取为 CSS 变量（Variables）。如果你希望微调主题色彩，可以直接用文本/代码编辑器打开 [claude.css](claude.css) 文件，在最顶部的 `:root` 模块中修改这些变量：
 
 ```css
 :root {
