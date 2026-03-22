@@ -1,5 +1,5 @@
-# Typora-Claude-Themes
-A CSS file that gives Typora the same interface as the Claude web version.
+# Typora Claude Theme
+
 这是一个受 Claude Web（网页端）白天模式启发的 Typora 主题。它采用了柔和的暖光背景、精致的排版以及极简的现代设计，旨在为你提供沉浸且无干扰的专注写作体验。
 
 ## ✨ 特性 (Features)
@@ -22,7 +22,7 @@ A CSS file that gives Typora the same interface as the Claude web version.
 
 ## 🎨 界⾯预览 (Screenshots)
 
-*(📝 提示：发布前建议在此处添加 1-2 张实际的界面截图，以展示排版效果、代码块外观和侧边栏样式。)*
+![image-20260322231450333](C:\Users\datovm\AppData\Roaming\Typora\typora-user-images\image-20260322231450333.png)
 
 ## 🛠 修改与定制 (Customization)
 
