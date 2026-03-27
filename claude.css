@@ -2,8 +2,8 @@
 
 :root {
     --bg-color: #faf9f5;
-    --window-bg-color: #faf9f5;
-    --side-bar-bg-color: #f5f4ed;
+    --window-bg-color: #FAF9F5;
+    --side-bar-bg-color: #F8F8F3;
     --panel-bg-color: #f7f5ef;
     --card-bg-color: #fffdf8;
 
@@ -33,8 +33,8 @@
 
     --inline-code-bg: #f3efe8;
     --inline-code-color: #9f4d4c;
-    --code-bg-color: #fdfcfa;
-    --rawblock-bg-color: #fdfcfa;
+    --code-bg-color: #FDFCFA;
+    --rawblock-bg-color: #FDFCFA;
     --rawblock-edit-panel-bd: #e9e4da;
 
     --shadow-soft: 0 8px 32px -12px rgba(0, 0, 0, 0.08);
@@ -55,7 +55,7 @@ html {
 
 html,
 body {
-    background: var(--bg-color);
+    background: var(--window-bg-color);
     color: var(--text-color);
 }
 
