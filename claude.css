@@ -2,7 +2,7 @@
 
 :root {
     --bg-color: #faf9f5;
-    --window-bg-color: #f5f4ed;
+    --window-bg-color: #faf9f5;
     --side-bar-bg-color: #f5f4ed;
     --panel-bg-color: #f7f5ef;
     --card-bg-color: #fffdf8;
@@ -31,11 +31,11 @@
     --select-text-bg-color: rgba(201, 100, 66, 0.18);
     --search-select-bg-color: rgba(201, 100, 66, 0.16);
 
-    --inline-code-bg: #f2eee6;
-    --inline-code-color: #6a2f21;
-    --code-bg-color: #fffdfa;
-    --rawblock-bg-color: #fffdfa;
-    --rawblock-edit-panel-bd: rgba(35, 35, 45, 0.12);
+    --inline-code-bg: #f3efe8;
+    --inline-code-color: #9f4d4c;
+    --code-bg-color: #fdfcfa;
+    --rawblock-bg-color: #fdfcfa;
+    --rawblock-edit-panel-bd: #e9e4da;
 
     --shadow-soft: 0 8px 32px -12px rgba(0, 0, 0, 0.08);
     --shadow-panel: 0 12px 28px -18px rgba(0, 0, 0, 0.12);
@@ -55,7 +55,7 @@ html {
 
 html,
 body {
-    background: var(--window-bg-color);
+    background: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -261,16 +261,16 @@ tt {
     font-size: 0.924em;
     color: var(--inline-code-color);
     background: var(--inline-code-bg);
-    border: 1px solid rgba(35, 35, 45, 0.08);
+    border: 1px solid #ddd7ce;
     border-radius: 999px;
 }
 
 pre,
 .md-fences {
-    border: 1px solid rgba(35, 35, 45, 0.08);
+    border: 1px solid #ebe4db;
     border-radius: 14px;
     background: var(--code-bg-color);
-    box-shadow: var(--shadow-soft);
+    box-shadow: none;
 }
 
 .md-fences {
@@ -301,11 +301,11 @@ pre.md-fences.mock-cm {
 
 .CodeMirror-gutters {
     background: transparent;
-    border-right: 1px solid rgba(35, 35, 45, 0.06);
+    border-right: 1px solid #f0ebe3;
 }
 
 .CodeMirror-linenumber {
-    color: #a7a094;
+    color: #b8b0a4;
 }
 
 .cm-s-inner .cm-comment,
@@ -346,37 +346,32 @@ table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    font-size: 0.94em;
-    border: 1px solid var(--table-border-color);
-    border-radius: 14px;
-    overflow: hidden;
-    background: var(--card-bg-color);
-    box-shadow: var(--shadow-panel);
+    font-size: 0.96em;
+    background: transparent;
+    border-top: 1px solid var(--table-border-color);
+    border-bottom: 1px solid var(--table-border-color);
 }
 
 table th,
 table td {
-    padding: 14px 14px;
-    border-bottom: 1px solid rgba(35, 35, 45, 0.08);
-}
-
-table th+th,
-table td+td {
-    border-left: 1px solid rgba(35, 35, 45, 0.08);
+    padding: 16px 12px;
+    border: 0;
+    border-bottom: 1px solid var(--table-border-color);
+    background: transparent;
 }
 
 table thead th {
-    font-family: var(--ui-font);
-    font-size: 0.86em;
     font-weight: 600;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: var(--muted-color);
-    background: #f7f4ee;
+    text-align: left;
 }
 
 table tr:last-child td {
     border-bottom: 0;
+}
+
+table th+th,
+table td+td {
+    border-left: 1px solid transparent;
 }
 
 mark {
